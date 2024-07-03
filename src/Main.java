@@ -42,10 +42,10 @@ public class Main {
         }
 
         System.out.println("Задача 8");
-        int inPot = 29900;
+        int stash = 29900;
         int total = 0;
         for (int mnth = 1; mnth <= 12; mnth++) {
-            total = total + inPot;
+            total = total + stash;
             System.out.println("Месяц " + mnth + ", сумма накоплений равна " + total + " рублей.");
         }
 
